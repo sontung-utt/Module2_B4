@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Student {
     public String name;
     public int age;
@@ -48,6 +50,7 @@ public class Student {
         for(int i = 0; i < marks.length; i++){
             System.out.print(marks[i] + " ");
         }
+        //System.out.println(Arrays.toString(marks));
         System.out.println();
         System.out.println("Điểm trung bình sinh viên: " + getAverageMarks());
     }
